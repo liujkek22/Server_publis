@@ -34,7 +34,7 @@ async def handler(websocket, path):
         clients.remove(websocket)
 
 async def main():
-    port = 8765
+    port = 80
     send_interval = 5  # 发送测试数据的间隔时间，单位为秒
     
     # 启动 WebSocket 服务器
